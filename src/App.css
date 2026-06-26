@@ -1,1 +1,16 @@
-@import "tailwindcss";
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.filled {
+    font-variation-settings: 'FILL' 1;
+}
+
+.ambient-shadow {
+    box-shadow: 0px 4px 20px rgba(147, 75, 0, 0.04);
+}
+
+.ambient-shadow-hover:hover {
+    box-shadow: 0px 8px 30px rgba(147, 75, 0, 0.08);
+    transform: translateY(-4px);
+}
